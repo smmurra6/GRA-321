@@ -1,17 +1,18 @@
 /* Styles for Project 5 */
 
 body{
-    font-family: poynter-oldstyle-text, serif;
-    font-weight: 400;
-    font-style: normal;
     letter-spacing: .5px;
     line-height: 1.5;  
     padding: 10%;
+    font-family: poynter-oldstyle-text,serif;
+    font-weight: 400;
+    font-style: normal;
+    
         
 }
 
 h1 {
-    color:orangered
+    color:green
 }
 h2 {
     font-weight: 500;
