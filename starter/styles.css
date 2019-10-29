@@ -11,7 +11,6 @@ html {
 
 img{
     max-width:100%;
-    height:auto;
     object-fit:cover;
     padding-bottom: 20px;
 }
@@ -76,6 +75,17 @@ img {
     
 }
 
+button, input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    max-width: 100%;
+}
+
 
 iframe{
     max-width:100%;
@@ -99,32 +109,71 @@ h1 {
 }
 h2 {
     color:#803A3A;
-    
     font-weight: 500;
+   
+}
+
+.paragraph {
+    margin-top:4px;
+    line-height: 17pt;
+    
 }
 
 img{
     max-width: 100%;
 }
 
+.contact{
+    padding-top: 5px;
+    padding-bottom:8px;
+    
+    
+}
+
 .contactform{
     height:25px;
     max-width:50%;
+    
 }
+
+lel {
+    padding-bottom:100px;
+  
+}
+
 
 .contactformmessage{
     height:100px;
     width:350px;
 }
 
-h3{
-    color:#803A3A;
-    margin-bottom: 0px;
- 
+label{
+    
+padding-bottom: 100px;
 }
 
 
 
+h3{
+    color:#803A3A;
+    margin-bottom: -5px;
+    
+ 
+}
+
+.panini{
+    margin-bottom: 0px;
+}
+
+.paninititle{
+    margin-bottom: 0px;
+    
+}
+
+
+.description{
+    margin-top:4px;
+}
 
 
 .additions{
@@ -156,6 +205,11 @@ h3{
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 400;
     font-style: normal;
+    line-height: 17pt;
+}
+
+.iceddrinks{
+    margin-top:50px;
     
 }
 
@@ -167,7 +221,7 @@ h3{
 
 .paragraph{
     
- font-family: franklin-gothic-urw,sans-serif;
+    font-family: franklin-gothic-urw,sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -204,6 +258,13 @@ font-style: normal;
 }
 
 
+.food{
+    margin-top:50px;
+    
+    
+    
+}
+
 
 .otherfood{
     display: grid;
@@ -211,6 +272,12 @@ font-style: normal;
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 500;
     font-style: normal;
+  
+}
+
+
+.otherfoodgroup{
+    margin-top:50px;
     
     
 }
@@ -219,8 +286,9 @@ font-style: normal;
 .locationandhours{
     
     display: grid;
-    grid-template-columns: 58% 50%;
+    grid-template-columns: 175px 50%;
     font-family: franklin-gothic-urw,sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
+    line-height: 17pt;
 }
