@@ -5,14 +5,25 @@
 }
 
 
+@-ms-viewport{
+    width: device-width;
+}
+
 html {
-  background-color: #E2DAD5; 
+    background-color: #E2DAD5; 
+    margin:0px;
+    
 }
 
 img{
     max-width:100%;
     object-fit:cover;
     padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background size: cover;
+    margin:0px:
+   
 }
 
 body{
@@ -22,6 +33,7 @@ body{
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 500;
     font-style: normal;
+    
    
 }
 
@@ -110,12 +122,14 @@ h1 {
 h2 {
     color:#803A3A;
     font-weight: 500;
+    margin-bottom:0px;
    
 }
 
 .paragraph {
     margin-top:4px;
     line-height: 17pt;
+    
     
 }
 
