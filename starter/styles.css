@@ -4,6 +4,11 @@
     box-sizing:border-box;
 }
 
+* {
+    margin: 0;
+
+}
+
 
 @-ms-viewport{
     width: device-width;
@@ -11,25 +16,20 @@
 
 html {
     background-color: #E2DAD5; 
-    margin:0px;
-    
+   
 }
-
-img{
-    max-width:100%;
-    object-fit:cover;
-    padding-bottom: 20px;
+.container {
+    background-image: src(img/beansandcup.jpeg);
     background-repeat: no-repeat;
-    background-position: center left;
-    background size: cover;
-    margin:0px:
+    background-position: left center;
+    height: 400px;
    
 }
 
+
 body{
     letter-spacing: .5px;
-    line-height: 1.5;  
-    padding: 10%;
+    line-height: 1.5;
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -37,27 +37,17 @@ body{
    
 }
 
-
-
-
-.box{
-	
-	height:55px;
-    max-width:100%;
-    
-    
-    
+.content{
+    margin-left: 35px;
+    margin-right:35px;
+    padding-bottom:50px;
 }
- 
-.black{
-	
-    position:relative;
 
-}
+
 
 .cafe{
     position: relative;
-    top:35px;
+    
     color: white;
     background-color: black;
     padding-left: 20px;
@@ -81,11 +71,21 @@ img {
 
 
 .menutitle{
-    border: .75px solid #707070;
+    border: .75px solid #707070 ;
     text-align: center;
     background-color:white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 14px;
+    width:400px;
     
 }
+
+
+.about{
+    padding-top: 16px;
+}
+
 
 button, input[type="reset"] {
 	background: none;
@@ -129,6 +129,7 @@ h2 {
 .paragraph {
     margin-top:4px;
     line-height: 17pt;
+    padding-bottom: 30px;
     
     
 }
@@ -150,27 +151,24 @@ img{
     
 }
 
-lel {
-    padding-bottom:100px;
-  
-}
+
 
 
 .contactformmessage{
     height:100px;
-    width:350px;
+    width:100%;
 }
 
-label{
-    
-padding-bottom: 100px;
+.hotdrinks{
+    padding-top: 20px;
 }
-
-
+.drinks{
+    padding-bottom: 20px;
+}
 
 h3{
     color:#803A3A;
-    margin-bottom: -5px;
+    
     
  
 }
@@ -180,7 +178,7 @@ h3{
 }
 
 .paninititle{
-    margin-bottom: 0px;
+    padding-bottom: 16px;
     
 }
 
@@ -195,7 +193,7 @@ h3{
     font-weight: 400;
     font-style: italic;
     margin-top: 4px;
-    
+    padding-bottom: 16px;
 }
 
 .paniniprice{
@@ -223,7 +221,10 @@ h3{
 }
 
 .iceddrinks{
-    margin-top:50px;
+    
+    padding-bottom: 20px;
+   
+    
     
 }
 
@@ -231,6 +232,7 @@ h3{
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-bottom: 20px;
 }
 
 .paragraph{
@@ -252,9 +254,9 @@ h3{
 h4{
     display: grid;
     grid-template-columns: 50% 16.67% 16.67% 16.67%;
-   font-family: franklin-gothic-urw,sans-serif;
-font-weight: 500;
-font-style: normal;
+    font-family: franklin-gothic-urw,sans-serif;
+    font-weight: 500;
+    font-style: normal;
         
     
     }
@@ -267,6 +269,7 @@ font-style: normal;
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 500;
     font-style: normal;
+    padding-bottom: 20px;
  
     
 }
@@ -280,6 +283,11 @@ font-style: normal;
 }
 
 
+.description{
+    padding-bottom: 20px;
+}
+
+
 .otherfood{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -289,6 +297,10 @@ font-style: normal;
   
 }
 
+.otherfoodtitle{
+    padding-bottom: 16px;
+
+}
 
 .otherfoodgroup{
     margin-top:50px;
@@ -305,4 +317,5 @@ font-style: normal;
     font-weight: 400;
     font-style: normal;
     line-height: 17pt;
+    padding-bottom: 30px;
 }
