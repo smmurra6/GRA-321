@@ -77,7 +77,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 14px;
-    width:400px;
+    width:415px;
     
 }
 
@@ -138,8 +138,12 @@ img{
     max-width: 100%;
 }
 
+.contactus{
+    padding-top: 16px;
+}
+
 .contact{
-    padding-top: 5px;
+    padding-top: 7.5px;
     padding-bottom:8px;
     
     
@@ -147,7 +151,7 @@ img{
 
 .contactform{
     height:25px;
-    max-width:50%;
+    
     
 }
 
@@ -156,7 +160,9 @@ img{
 
 .contactformmessage{
     height:100px;
-    width:100%;
+    width:94%
+   
+   
 }
 
 .hotdrinks{
@@ -319,3 +325,11 @@ h4{
     line-height: 17pt;
     padding-bottom: 30px;
 }
+
+@media screen and (min-width: 650px) {
+  .landingpage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+      
+      
