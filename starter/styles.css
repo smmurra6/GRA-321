@@ -308,7 +308,9 @@ img{
 
 .contactform{
     height:25px;
-    width:94%
+    width:94%;
+    
+    
     
     
 }
@@ -318,7 +320,7 @@ img{
 
 .contactformmessage{
     height:100px;
-    width:94%
+    width:94%;
    
    
 }
@@ -496,6 +498,19 @@ h4{
       
       
 @media screen and (min-width: 650px) {
+  .button {
+    display: grid;
+    grid-template-columns:50% 50%;
+    column-gap: 40px;
+      width:50%;
+      margin-left: 25%;
+          margin-right:25%;
+        
+    
+      
+    }
+    
+    @media screen and (max-width: 650px) {
   .button {
     display: grid;
     grid-template-columns:50% 50%;
