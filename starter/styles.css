@@ -182,7 +182,7 @@ img {
     background: white;
     border: .75px solid #707070 ;
     display: block;
-    
+    font-size: 24px;
     color: #753131;
     text-align: center;
     width:50%;
@@ -194,7 +194,9 @@ img {
 
 .btn:hover,
 .btn:focus {
-  background: red;
+  background: #753131;
+    border: .75px solid #753131;
+    color:white;
 }
 
 .btn:active {
@@ -208,7 +210,9 @@ img {
 
 .btn--blue:hover,
 .btn--blue:focus {
-  background: red;
+  background: #753131;
+    border: .75px solid #753131;
+    color:white;
 }
 
 .btn--blue:active {
