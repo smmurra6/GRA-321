@@ -181,15 +181,18 @@ img {
     cursor: pointer;
     background: white;
     border: .75px solid #707070 ;
-    display: block;
+    display: inline-block;
     font-size: 24px;
     color: #753131;
     text-align: center;
-    width:50%;
+    width:100%;
     
   margin-bottom: 14px;
-    margin-right: 25%;
-    margin-left:25%;
+  
+    
+    
+    
+  
 }
 
 .btn:hover,
@@ -221,6 +224,14 @@ img {
 
 
 
+
+.button{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    
+    
+}
 
 
 
@@ -472,6 +483,7 @@ h4{
     font-style: normal;
     line-height: 17pt;
     padding-bottom: 30px;
+    
 }
 
 @media screen and (min-width: 650px) {
@@ -480,4 +492,18 @@ h4{
     grid-template-columns: 50% 50%;
     column-gap: 40px;
       
+    }
       
+      
+@media screen and (min-width: 650px) {
+  .button {
+    display: grid;
+    grid-template-columns:50% 50%;
+    column-gap: 40px;
+      width:50%;
+      margin-left: 25%;
+          margin-right:25%;
+        
+    
+      
+    }
