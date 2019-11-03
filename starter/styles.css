@@ -515,11 +515,13 @@ h4{
     @media screen and (max-width: 650px) {
   .button {
     display: grid;
-    grid-template-columns:50% 50%;
-    column-gap: 40px;
-      width:50%;
-      margin-left: 25%;
-          margin-right:25%;
+      grid-template-columns: 100%;
+    
+      align-content: center;
+  
+      width:100%;
+     
+      
         }
     
       
