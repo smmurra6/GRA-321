@@ -446,6 +446,11 @@ h4{
 }
 
 
+.iceddrinkstitle{
+    margin-top:20px;
+}
+
+
 .food{
     margin-top:50px;
     
@@ -456,6 +461,7 @@ h4{
 
 .description{
     padding-bottom: 20px;
+    margin-right:-20px;
 }
 
 
@@ -474,7 +480,7 @@ h4{
 }
 
 .otherfoodgroup{
-    margin-top:50px;
+    margin-top:20px;
     
     
 }
