@@ -541,6 +541,7 @@ h4{
   @media screen and (max-width: 650px) {
   .contactform {
     border-radius: 0px;
+      -webkit-border-radius:0; 
      
       
         }
@@ -552,6 +553,7 @@ h4{
   @media screen and (max-width: 650px) {
   .contactformmessage {
     border-radius: 0px;
+      -webkit-border-radius:0; 
      
       
         }
@@ -563,7 +565,7 @@ h4{
   @media screen and (max-width: 650px) {
   .submit {
     border-radius: 0px;
-     
+     -webkit-border-radius:0; 
       
         }
     
