@@ -566,7 +566,7 @@ h4{
   .submit {
      
       -webkit-appearance:none;
-   
+        border-radius: 0px;
       
         }
     
