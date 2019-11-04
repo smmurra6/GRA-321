@@ -93,6 +93,7 @@ body{
   text-align: left;
   background: rgba(0,0,0, .9);
   transition: opacity .25s ease;
+margin:-20px;
 }
 
 .modal__bg {
@@ -423,6 +424,7 @@ h3{
 h4{
     display: grid;
     grid-template-columns: 37.5% 20.83% 20.83% 20.83%;
+    margin-right:-80px;
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 500;
     font-style: normal;
