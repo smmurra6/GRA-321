@@ -541,6 +541,7 @@ h4{
   @media screen and (max-width: 650px) {
   .contactform {
    -webkit-appearance:none ;
+      border-radius: 0px;
      
       
         }
@@ -552,6 +553,7 @@ h4{
   @media screen and (max-width: 650px) {
   .contactformmessage {
     -webkit-appearance:none ;
+      border-radius: 0px;
     
       
         }
