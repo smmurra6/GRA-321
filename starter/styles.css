@@ -549,3 +549,23 @@ h4{
     }
 
 
+  @media screen and (max-width: 650px) {
+  .contactformmessage {
+    border-radius: 0px;
+     
+      
+        }
+    
+      
+    }
+
+
+  @media screen and (max-width: 650px) {
+  .submit {
+    border-radius: 0px;
+     
+      
+        }
+    
+      
+    }
