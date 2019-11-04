@@ -93,7 +93,7 @@ body{
   text-align: left;
   background: rgba(0,0,0, .9);
   transition: opacity .25s ease;
-margin:-10px;
+margin:-5px;
 }
 
 .modal__bg {
