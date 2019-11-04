@@ -423,7 +423,7 @@ h3{
 
 h4{
     display: grid;
-    grid-template-columns: 37.5% 20.83% 20.83% 20.83%;
+    grid-template-columns: 43.75% 18.75% 18.75% 18.75%;
     margin-right:-20px;
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 500;
